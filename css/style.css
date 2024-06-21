@@ -1,3 +1,55 @@
-body{
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Sanchez";
+}
+
+header{
     background-color: rgb(234, 197, 238);
+}
+
+ul{
+    float: right;
+    margin-top: 45px;
+    margin-right: 50px;
+    min-height: 500px;
+    font-size: x-large;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(97, 3, 97);
+    padding: 20px;
+    border: solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: rgb(107, 74, 107);
+    color: rgb(255, 255, 255);
+}
+
+.myportfolio h1{
+    float: left;
+    font-size: 80px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.main{
+    margin: auto
+}
+
+.introduce img{
+    position: absolute;
+    top: 15%;
+    left: 37%;
+}
+
+body{
+    background-color: rgb(249, 222, 252);
 }

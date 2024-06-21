@@ -90,7 +90,6 @@ body{
     margin: 40px;
     font-size: 25px;
     color: rgb(102, 5, 102);
-    text-align: center;
     border: 2px solid;
     border-radius: 20px;
     display: inline-block;
@@ -197,4 +196,52 @@ body{
 .tel p{
     font-size: 25px;
     color: rgb(102, 5, 102);
+}
+
+.adirek{
+    margin: 20px;
+    text-align: center;
+}
+
+.adirek p{
+    margin: 40px;
+    font-size: 25px;
+    color: rgb(102, 5, 102);
+    border: 2px solid;
+    border-radius: 20px;
+    display: inline-block;
+    width: fit-content;
+    padding: 15px;
+    white-space: pre-wrap;
+}
+
+.adirek img{
+    width: 80%;
+    max-width: 550px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.more{
+    margin: 20px;
+    text-align: center;
+}
+
+.more p{
+    margin: 40px;
+    font-size: 25px;
+    color: rgb(102, 5, 102);
+    border: 2px solid;
+    border-radius: 20px;
+    display: inline-block;
+    width: fit-content;
+    padding: 15px;
+    white-space: pre-wrap;
+}
+
+.more img{
+    width: 80%;
+    max-width: 550px;
+    position: relative;
+    border-radius: 10px;
 }

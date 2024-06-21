@@ -1,18 +1,14 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: "Sanchez";
-}
-
-header{
-    background-color: rgb(234, 197, 238);
+    font-family: "Paytone One", sans-serif;
 }
 
 ul{
     float: right;
     margin-top: 45px;
     margin-right: 50px;
-    min-height: 500px;
+    min-height: 30px;
     font-size: x-large;
 }
 
@@ -22,10 +18,9 @@ ul li{
 
 ul li a{
     text-decoration: none;
-    color: rgb(97, 3, 97);
+    color: rgb(116, 11, 116);
     padding: 20px;
-    border: solid transparent;
-    transition: 0.5 ease;
+    border-radius: 20px;
 }
 
 ul li a:hover{
@@ -35,21 +30,171 @@ ul li a:hover{
 
 .myportfolio h1{
     float: left;
-    font-size: 80px;
+    font-size: 75px;
     margin-left: 50px;
-    margin-top: 20px;
+    margin-top: 10px;
+    color: rgb(59, 3, 59);
 }
 
-.main{
-    margin: auto
+.introduce{
+    text-align: center;
+    padding: 50px 0;
 }
 
 .introduce img{
-    position: absolute;
-    top: 15%;
-    left: 37%;
+    width: 80%;
+    max-width: 350px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.introduce p{
+    font-size: 30px;
+    margin-top: 10px;
+    color: rgb(59, 3, 59);
 }
 
 body{
     background-color: rgb(249, 222, 252);
+    display: flex;
+    flex-direction: column;
+}
+
+.me{
+    text-align: center;
+    margin: 5px;
+}
+.me pre{
+    font-size: 25px;
+    color: rgb(102, 5, 102);
+    border: 2px solid;
+    border-radius: 20px;
+    display: inline-block;
+    width: fit-content;
+    padding: 15px;
+    white-space: pre-wrap;
+
+}
+
+.skill{
+    text-align: center;
+    margin: 20px;
+}
+.skill h3{
+    font-size: 28px;
+    color: rgb(59, 3, 59);
+    text-align: center;
+}
+
+.skill pre{
+    margin: 40px;
+    font-size: 25px;
+    color: rgb(102, 5, 102);
+    text-align: center;
+    border: 2px solid;
+    border-radius: 20px;
+    display: inline-block;
+    width: fit-content;
+    padding: 15px;
+    white-space: pre-wrap;
+}
+
+.example1{
+    margin: 20px;
+    text-align: center;
+}
+
+.example1 img{
+    width: 80%;
+    max-width: 550px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.example2{
+    margin: 20px;
+    text-align: center;
+}
+
+.example2 img{
+    width: 80%;
+    max-width: 550px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.example3{
+    margin: 20px;
+    text-align: center;
+}
+
+.example3 img{
+    width: 80%;
+    max-width: 550px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.mail{
+    text-align: center;
+    margin: 5px;
+}
+
+.mail ul{
+    font-size: 25px;
+    color: rgb(102, 5, 102);
+    border: 2px solid;
+    border-radius: 20px;
+    display: inline-block;
+    width: fit-content;
+    padding: 15px;
+    white-space: pre-wrap;
+}
+
+.mail ul li{
+    display: inline-block;
+}
+
+.mail ul li a{
+    text-decoration: none;
+    color: rgb(116, 11, 116);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.insta{
+    text-align: center;
+    margin: 30px;
+}
+
+.insta ul{
+    font-size: 25px;
+    color: rgb(102, 5, 102);
+    border: 2px solid;
+    border-radius: 20px;
+    display: inline-block;
+    width: fit-content;
+    padding: 15px;
+    white-space: pre-wrap;
+}
+
+.insta ul li{
+    display: inline-block;
+}
+
+.insta ul li a{
+    text-decoration: none;
+    color: rgb(116, 11, 116);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.tel{
+    text-align: center;
+    margin: 5px;
+}
+
+.tel p{
+    font-size: 25px;
+    color: rgb(102, 5, 102);
 }

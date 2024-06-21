@@ -201,6 +201,8 @@ body{
 .adirek{
     margin: 20px;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .adirek p{
@@ -210,21 +212,25 @@ body{
     border: 2px solid;
     border-radius: 20px;
     display: inline-block;
-    width: fit-content;
+    height:fit-content;
     padding: 15px;
     white-space: pre-wrap;
 }
 
-.adirek img{
-    width: 80%;
-    max-width: 550px;
-    position: relative;
-    border-radius: 10px;
+.hya{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 10px;
+   
 }
 
 .more{
     margin: 20px;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .more p{
@@ -234,14 +240,15 @@ body{
     border: 2px solid;
     border-radius: 20px;
     display: inline-block;
-    width: fit-content;
+    height:fit-content;
     padding: 15px;
     white-space: pre-wrap;
 }
 
-.more img{
-    width: 80%;
-    max-width: 550px;
-    position: relative;
+.volley{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     border-radius: 10px;
 }

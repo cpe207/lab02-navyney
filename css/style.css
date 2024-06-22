@@ -104,9 +104,10 @@ body{
 }
 
 .example1 img{
-    width: 80%;
-    max-width: 550px;
-    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 47%;
     border-radius: 10px;
 }
 
@@ -116,9 +117,10 @@ body{
 }
 
 .example2 img{
-    width: 80%;
-    max-width: 550px;
-    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 47%;
     border-radius: 10px;
 }
 
@@ -128,9 +130,10 @@ body{
 }
 
 .example3 img{
-    width: 80%;
-    max-width: 550px;
-    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 47%;
     border-radius: 10px;
 }
 
@@ -221,7 +224,7 @@ body{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 40%;
   border-radius: 10px;
    
 }
@@ -249,6 +252,6 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 47%;
     border-radius: 10px;
 }
